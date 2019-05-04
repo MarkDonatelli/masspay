@@ -25,6 +25,7 @@
 <link rel="stylesheet" href="css/owl.theme.default.min.css">
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="dzsparallaxer/dzsparallaxer.css">
+<link rel="stylesheet" href="css/modal-video.min.css">
 <link rel="stylesheet" href="css/style.css">
 
 
@@ -178,8 +179,9 @@
         </div>
     </div>
 </section>
-<!-- End of Banner-->
 
+
+<!-- End of Banner-->
 
 
         <div class="container-fluid pt-8">
@@ -204,13 +206,10 @@
                         <div class="card mt-6 shadow filter lead-filt w-25">
                                 <div class="">
                                         <div class="card-overlay">
-                                                <h1 class="card-overlay-heading">Meet Brian!</h1>
-                                                <script src="https://fast.wistia.com/embed/medias/6flvn" async></script>
-                                                <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-                                                <span class="wistia_embed wistia_async_6flvn0qqvn popover=true popoverContent=link" style="display:inline;position:relative">
-                                                <a href=""><i class="fas fa-play"></i></a></span>
+                                                <h1 class="card-overlay-heading">Meet Alec!</h1>
+                                                <button class="js-video-button btn-people--launch" data-video-id='333396749' data-channel="vimeo">PLAY</button>
                                         </div>
-                                    <img src="images/people-test.jpg" class="card-img" alt="">
+                                    <img src="images/alec-people.png" class="card-img" alt="">
                                 </div>
                                 <div class="card-body">
                                     <h6 class="card-title mb-0 text-uppercase">Mark Donatelli</h6>
@@ -220,13 +219,11 @@
                             <div class="card mt-6 shadow filter sales-filt w-25">
                                     <div class="">
                                             <div class="card-overlay">
-                                                    <h1 class="card-overlay-heading">Meet Brian!</h1>
-                                                    <script src="https://fast.wistia.com/embed/medias/6flvn0qqvn.jsonp" async></script>
-                                                    <script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-                                                    <span class="wistia_embed wistia_async_6flvn0qqvn popover=true popoverContent=link" style="display:inline;position:relative">
-                                                    <a href="#"><i class="fas fa-play"></i></a></span>
+                                                    <h1 class="card-overlay-heading">Meet Amanda!</h1>
+                                                    <button class="js-video-button btn-people--launch" data-video-id='331425015' data-channel="vimeo">PLAY</button>
+
                                             </div>
-                                        <img src="images/people-test.jpg" class="card-img" alt="">
+                                        <img src="images/amanda-people.png" class="card-img" alt="">
                                     </div>
                                     <div class="card-body">
                                         <h6 class="card-title mb-0 text-uppercase">Mark Donatelli</h6>
@@ -242,7 +239,7 @@
                                                         <span class="wistia_embed wistia_async_6flvn0qqvn popover=true popoverContent=link" style="display:inline;position:relative">
                                                         <a href="#"><i class="fas fa-play"></i></a></span>
                                                 </div>
-                                            <img src="images/people-test.jpg" class="card-img" alt="">
+                                            <img src="images/alec-people.png" class="card-img" alt="">
                                         </div>
                                         <div class="card-body">
                                             <h6 class="card-title mb-0 text-uppercase">Mark Donatelli</h6>
@@ -258,7 +255,7 @@
                                                             <span class="wistia_embed wistia_async_6flvn0qqvn popover=true popoverContent=link" style="display:inline;position:relative">
                                                             <a href="#"><i class="fas fa-play"></i></a></span>
                                                     </div>
-                                                <img src="images/people-test.jpg" class="card-img" alt="">
+                                                <img src="images/amanda-people.png" class="card-img" alt="">
                                             </div>
                                             <div class="card-body">
                                                 <h6 class="card-title mb-0 text-uppercase">Mark Donatelli</h6>
@@ -746,12 +743,23 @@
   </footer>
 
 
-
-
-
+<!-- :( plugin required older jQuery 2.2.4 now have two versions of jQuery but only on this page, no conflicts as of now, keep eyes open :( -->
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="modal-video/js/jquery-modal-video.min.js"></script>
+  <script>
+     $(".js-video-button").modalVideo({
+      
+     });
+  </script>
 
   <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
   crossorigin="anonymous"></script>
+
+  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
   <script src="js/nsc.js"></script>
@@ -760,7 +768,7 @@
   <script src="js/smooth-scroll.min.js"></script>
   <script src="js/particles.js"></script>
   <script src="js/owl.carousel.min.js"></script>
-  <script src="js/app.js"></script>
+ 
 
 
 

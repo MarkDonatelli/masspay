@@ -6302,6 +6302,10 @@ p {
 	box-shadow: -2px 0 20px 2px hsla(0, 0%, 64%, .2) !important;
 	transition: all .3s;
 }
+
+
+
+
 .wistia_embed .fa-play:hover {
 	color: #307167;
 	text-decoration: none;

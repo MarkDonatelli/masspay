@@ -16,6 +16,10 @@ $(document).ready(function() {
 		}
 	});
 
+
+
+	
+
 	/*=====Smooth Scroll========*/
 
 	$('a[href*="#"]:not([data-toggle="pill"])').on('click', function(e) {
@@ -207,6 +211,17 @@ $('#myBtn').click(function() {
 
 $(document).ready(function() {
 	$('.owl-carousel').owlCarousel();
+
+
+
+
+/*=====People Modals =======*/
+
+$(".js-video-button").modalVideo({
+      
+});
+
+
 });
 
 $('.gallery-list-item').click(function() {
