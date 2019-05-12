@@ -3,6 +3,8 @@ $(document).ready(function() {
 		$('.nav-button').toggleClass('change');
 	});
 
+	
+
 	$(window).scroll(function() {
 		let position = $(this).scrollTop();
 		if (position >= 200) {
@@ -18,6 +20,14 @@ $(document).ready(function() {
 
 
 
+	$('.card').on('mouseover mouseout',function(){
+		var cardImg = $(this).find('.card-img');
+  		cardImg.toggleClass('card-img-hover');
+	  });
+
+
+
+});
 	
 
 	/*=====Smooth Scroll========*/
@@ -140,7 +150,7 @@ $(document).ready(function() {
 			}); // end window scroll
 		});
 	});
-});
+
 
 /* MODAL VIDEO VOLUME ON PLAY*/
 $('video').prop('volume', 0.5);
@@ -220,7 +230,6 @@ $(document).ready(function() {
 $(".js-video-button").modalVideo({
       
 });
-
 
 });
 
