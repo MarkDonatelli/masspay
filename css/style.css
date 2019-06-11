@@ -6531,12 +6531,7 @@ p {
 	.cards .w-25 {
 		width: 50% !important;
 	}
-	.card-text {
-		font-size: 1rem !important;
-	}
-	.card-title {
-		font-size: 1rem;
-	}
+
 }
 @media (min-width: 768px) and (max-width: 991px) {
 	.cards .w-25 {
@@ -6599,17 +6594,27 @@ p {
 }
 @media (min-width: 0px) and (max-width: 468px) {
 	.list-inline {
-		padding-left: 20px;
-		padding-right: 5px;
-		position: relative;
-		top: 30px;
+		display: none;
 	}
 	.list-inline-item:not(:last-child) {
 		margin-right: 0 !important;
 	}
 	.team {
-		padding-left: 50px !important;
+		display: none;
 	}
+	
+	.height-dz p{
+		font-size: 1.7rem !important;
+		position: relative;
+		top:-30px;
+		text-align: center;
+	}
+
+	.btn-join{
+		position: relative;
+		top:-50px;
+	}
+
 }
 @media (min-width: 469px) and (max-width: 693px) {
 	.list-inline {
@@ -6651,6 +6656,10 @@ p {
 .bar-hor {
 	font-weight: 100 !important;
 	color: #212529 !important;
+}
+
+.join-us--font-size{
+	font-size: 3rem !important;
 }
 
 
