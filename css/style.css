@@ -6592,75 +6592,6 @@ p {
 .gallery-list-item:hover {
 	color: #57bc90;
 }
-@media (min-width: 0px) and (max-width: 468px) {
-	.list-inline {
-		display: none;
-	}
-	.list-inline-item:not(:last-child) {
-		margin-right: 0 !important;
-	}
-	.team {
-		display: none;
-	}
-	
-	.height-dz p{
-		font-size: 1.7rem !important;
-		position: relative;
-		top:-30px;
-		text-align: center;
-	}
-
-	.btn-join{
-		position: relative;
-		top:-50px;
-	}
-
-}
-@media (min-width: 469px) and (max-width: 693px) {
-	.list-inline {
-		padding-left: 20px;
-		position: relative;
-		top: 20px;
-	}
-	.list-inline-item:not(:last-child) {
-		margin-right: 0 !important;
-	}
-	.team {
-		padding-left: 40px !important;
-	}
-}
-@media (min-width: 694px) and (max-width: 792px) {
-	.gallery-list-item {
-		font-size: 1rem !important;
-	}
-	.list-inline-item:not(:last-child) {
-		margin-right: 0 !important;
-	}
-	.team {
-		padding-left: 40px !important;
-	}
-}
-.list-inline {
-	width: 100%;
-}
-.team {
-	font-weight: 900;
-	font-size: 9rem;
-	color: whitesmoke;
-	margin: 0 auto;
-	position: relative;
-	top: -113px;
-	right: 30px;
-	z-index: -1;
-}
-.bar-hor {
-	font-weight: 100 !important;
-	color: #212529 !important;
-}
-
-.join-us--font-size{
-	font-size: 3rem !important;
-}
 
 
 
@@ -7151,3 +7082,204 @@ p {
 		display: none;
 	}
 }
+
+
+/* add to blue */
+
+.careers-container{
+	background: url(/images/careers_filler.jpg) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 70vh;
+  color: white;
+}
+
+
+.h-80{
+	height: 80vh;
+}
+
+.wrap{
+	background: linear-gradient(-45deg, rgba(17, 128, 45, 0.92) 40%, rgba(10, 214, 88, 0.92) 100%);
+	background: linear-gradient(-45deg, rgba(48, 113, 103, 0.92) 40%, rgba(87, 188, 144, 0.92) 100%);
+	padding: 100px;
+	height: 500px;
+	width:500px;
+	/*border-radius: 50%;*/
+	border-radius: 30px;
+	margin-bottom: 80px;
+}
+
+
+.careers-p{
+	font-size: 2rem;
+}
+
+
+.link_box{
+	color: white;
+	font-size: 2rem;
+    width: 400px;
+    height: 200px;
+    margin:0 auto;
+    background: #307167;
+    box-shadow: 0px 11px 18px rgba(48, 113, 103, 0.40);
+    border-radius: 13px;
+    overflow: hidden;
+    transition: 0.3s;
+    -webkit-transform: translate3d(0,0,0);
+}
+
+.link-boxes a{
+	text-decoration: none;
+}
+
+.link-boxes p{
+	font-size: 1.3rem;
+}
+
+ .sep-link-box{
+		display: block;
+		background: #57bc90;
+		height:8px;
+	
+}
+.link_box:hover{
+	box-shadow: 0px 14px 30px rgba(48, 113, 103, 0.40);
+    -ms-transform: translate(0px, -3px);
+    -webkit-transform: translate(0px, -3px);
+    transform: translate(0px, -3px);
+}
+
+.width-custom{
+	max-width: 1900px;
+}
+
+
+/* JazzHr generated styles for job postings */
+#resumator-logo{
+	display: none !important;
+}
+
+#resumator-jobs{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 115px;
+}
+.resumator-job-title, .resumator-jobs-text {
+	text-align: center !important;
+
+}
+
+.resumator-job-info-details, .resumator-job-info {
+    display: block;
+    float: none !important;
+    line-height: 1.5em;
+	margin: 0.25em 1em 0 0;
+    text-align: left;
+	font: 1em Arial,Verdana,sans-serif !important;
+}
+
+.resumator-job-title{
+	margin:0;
+	padding:0;
+	border-color: #57bc90 !important;
+	font-family: 'Roboto', sans-serif !important;
+	font-size: 1.5rem !important;
+}
+
+.resumator-job-text{
+	box-shadow: -2px 0 20px 2px rgba(46, 128, 92, 0.2) !important;
+	padding:40px;
+}
+
+a.resumator-job-link{
+	color:#307167 !important;
+}
+
+.resumator-buttons ul li a{
+	color:#307167 !important;
+
+}
+
+
+
+
+@media (max-width: 2000px) {
+	.width-custom{
+		max-width: 1900px;
+	}
+}
+
+@media (max-width: 1900px) {
+	.width-custom{
+		max-width: 1700px;
+	}
+	
+}
+
+@media (max-width: 1700px) {
+	.width-custom{
+		max-width: 1500px;
+	}
+}
+
+@media (max-width: 1500px) {
+	.width-custom{
+		max-width: 1300px;
+	}
+}
+
+@media (max-width: 1300px) {
+	.width-custom{
+		max-width: 1200px;
+	}
+}
+@media (max-width: 1200px) {
+	.width-custom{
+		max-width: 1050px;
+	}
+}
+
+@media (max-width: 1050px) {
+	.width-custom{
+		max-width: 900px;
+	}
+}
+
+@media (max-width: 992px) {
+	#resumator-jobs{
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-gap: 115px;
+	}
+}
+	
+@media (max-width: 900px) {
+	.width-custom{
+		max-width: 700px;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1540px) {
+	.two-one--stack{
+		max-width: 40% !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.two-one--stack{
+		max-width: 100% !important;
+	}
+}
+
+@media (max-width: 992px) {
+	.careers-p{
+		font-size: 1.5rem;
+	}
+}
+
+
+	
